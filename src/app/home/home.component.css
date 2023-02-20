@@ -1,5 +1,6 @@
 .headline {
   text-align: center;
+  margin: 20px;
 }
 
 .item {
@@ -13,7 +14,7 @@
 .itemImg {
   height: 250px;
   width: 350px;
-  margin: 5px;
+  margin: 15px;
   margin-bottom: 50px;
 }
 
@@ -26,5 +27,18 @@
 
 .itemImg figcaption {
   text-align: center;
+}
+
+.btnDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
 }
 /*# sourceMappingURL=home.component.css.map */

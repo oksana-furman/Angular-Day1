@@ -1,5 +1,6 @@
 .headline {
     text-align: center;
+    margin: 20px;
 }
 
 .item {
@@ -12,7 +13,7 @@
 .itemImg {
     height: 250px;
     width: 350px;
-    margin: 5px;
+    margin: 15px;
     margin-bottom: 50px;
     img {
         width: 100%;
@@ -22,4 +23,11 @@
     figcaption {
         text-align: center;
     }
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
 }
