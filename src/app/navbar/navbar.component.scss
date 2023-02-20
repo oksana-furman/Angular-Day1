@@ -1,0 +1,19 @@
+$bg-nav: rgb(108, 202, 152);
+$text-nav: white;
+.navbar {
+    background-color: $bg-nav;
+    .navbar-brand {
+        color: $text-nav;
+    }
+    .nav-link {
+        color: $text-nav;
+    }
+    .dropdown-menu {
+        color: $text-nav;
+        background-color: $bg-nav;
+        .dropdown-item {
+            color: $text-nav;
+            background-color: $bg-nav;
+        }
+    }
+}

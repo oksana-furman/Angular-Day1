@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #6cca98;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .dropdown-menu {
+  color: white;
+  background-color: #6cca98;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: white;
+  background-color: #6cca98;
+}
+/*# sourceMappingURL=navbar.component.css.map */

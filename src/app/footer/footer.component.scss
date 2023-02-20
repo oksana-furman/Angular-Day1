@@ -1,0 +1,22 @@
+$bg-nav: rgb(108, 202, 152);
+$text-nav: white;
+footer {
+    background-color: $bg-nav;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .f-div {
+        display: flex;
+        justify-content: space-evenly;
+        .f-link {
+            text-decoration: none;
+            color: $text-nav;
+            padding: 10px;
+        }
+    }
+    .f-p {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        color: $text-nav;
+    }
+}
