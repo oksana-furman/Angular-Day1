@@ -1,0 +1,25 @@
+.headline {
+    text-align: center;
+}
+
+.item {
+    text-align: center;
+    .bi {
+        font-size: larger;
+    }
+}
+
+.itemImg {
+    height: 250px;
+    width: 350px;
+    margin: 5px;
+    margin-bottom: 50px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    figcaption {
+        text-align: center;
+    }
+}

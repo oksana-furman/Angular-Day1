@@ -1,0 +1,30 @@
+.headline {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+}
+
+.item .bi {
+  font-size: larger;
+}
+
+.itemImg {
+  height: 250px;
+  width: 350px;
+  margin: 5px;
+  margin-bottom: 50px;
+}
+
+.itemImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.itemImg figcaption {
+  text-align: center;
+}
+/*# sourceMappingURL=home.component.css.map */
